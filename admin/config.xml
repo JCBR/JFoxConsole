@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="form"
+		label="COM_JFOXCONSOLE_PARAMETERS_FORM_LABEL"
+		description="COM_JFOXCONSOLE_PARAMETERS_FORM_DESC"
+	>
+		<field
+			name="cols_html"
+			type="text"
+			label="COM_JFOXCONSOLE_PARAMETERS_COLS_HTML_LABEL"
+			description="COM_JFOXCONSOLE_PARAMETERS_COLS_HTML_DESC"
+			default="130"
+                        size="3"
+		/>
+		<field
+			name="rows_html"
+			type="text"
+			label="COM_JFOXCONSOLE_PARAMETERS_ROWS_HTML_LABEL"
+			description="COM_JFOXCONSOLE_PARAMETERS_ROWS_HTML_DESC"
+			default="20"
+                        size="3"
+		/>
+		<field
+			name="cols_raw"
+			type="text"
+			label="COM_JFOXCONSOLE_PARAMETERS_COLS_RAW_LABEL"
+			description="COM_JFOXCONSOLE_PARAMETERS_COLS_RAW_DESC"
+			default="130"
+                        size="3"
+		/>
+                <field
+			name="rows_raw"
+			type="text"
+			label="COM_JFOXCONSOLE_PARAMETERS_ROWS_RAW_LABEL"
+			description="COM_JFOXCONSOLE_PARAMETERS_ROWS_RAW_DESC"
+			default="3"
+                        size="3"
+		/>
+	</fieldset>
+	<fieldset
+		name="advanced"
+		label="COM_JFOXCONSOLE_PARAMETERS_ADVANCED_LABEL"
+		description="COM_JFOXCONSOLE_PARAMETERS_ADVANCED_DESC"
+	>
+		<field
+			name="filter_error"
+			type="radio"
+			label="COM_JFOXCONSOLE_PARAMETERS_FILTER_ERROR_LABEL"
+			description="COM_JFOXCONSOLE_PARAMETERS_FILTER_ERROR_DESC"
+			default="1"
+		>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
+        
+</config>
+

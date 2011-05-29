@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+
+	<name>com_jfoxconsole</name>
+	<creationDate>19 Fev 2011</creationDate>
+	<author>Emerson Rocha Luiz</author>
+	<authorEmail>emerson@webdesign.eng.br</authorEmail>
+	<authorUrl>http://www.fititnt.org</authorUrl>
+	<copyright>2011 © Webdesign Assessoria em Tecnologia da Informação LTDA</copyright>
+	<license>LGPL</license>
+	<version>0.5.0.0RC1</version>
+	<description>COM_JFOXCONSOLE_DESCRIPTION</description>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>jfoxconsole.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>language</folder>
+	</files>
+	<languages folder="site">
+			<language tag="en-GB">language/en-GB/en-GB.com_jfoxconsole.ini</language>
+			<language tag="pt-BR">language/pt-BR/pt-BR.com_jfoxconsole.ini</language>
+	</languages>
+	<administration>
+
+		<menu>JFoxConsole</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>jfoxconsole.php</filename>
+			<filename>controller.php</filename>
+			<folder>models</folder>
+			<folder>views</folder>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_jfoxconsole.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_jfoxconsole.sys.ini</language>
+			<language tag="pt-BR">language/pt-BR/pt-BR.com_jfoxconsole.ini</language>
+			<language tag="pt-BR">language/pt-BR/pt-BR.com_jfoxconsole.sys.ini</language>
+		</languages>
+	</administration>
+	<updateservers>
+		<server type="extension" priority="1" name="fititnt.org update server - JFoxConsole">http://www.update.fititnt.org/com_jfoxconsole/com_jfoxconsole-j16.xml</server>
+	</updateservers>
+</extension>
